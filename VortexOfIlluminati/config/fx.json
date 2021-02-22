@@ -1,0 +1,206 @@
+{
+
+	"filters": {
+
+		"colorify":{
+			"displayName": "Colorify",
+			"on": false,
+			"params": {
+			}
+		},
+
+		"dotscreen":{
+			"displayName": "Half Tone",
+			"on": false,
+			"params": {
+				"scale":{
+					"displayName":"scale",
+					"value": 0.8,
+					"min":0.5,
+					"max":1,
+					"step":0.01
+				}
+			}
+		},
+
+		"mirror":{
+			"displayName": "Mirror",
+			"on": false,
+			"params": {
+				"auto":{
+					"displayName":"auto",
+					"value": true,
+					"custom": true
+				},
+				"side":{
+					"displayName":"side",
+					"value": 0,
+					"min":0,
+					"max":3,
+					"step":1
+				},
+				"additive":{
+					"displayName":"additive",
+					"value": false
+				}
+
+			}
+		},
+
+		"super":{
+			"displayName": "Super",
+			"on": true,
+			"params": {
+
+				"glowAmount":{
+					"displayName":"Glow Amount",
+					"value": 0.4,
+					"min":0,
+					"max":2,
+					"step":0.01,
+					"randRange":"low"
+				},
+
+				"glowSize":{
+					"displayName":"Glow Size",
+					"value": 2,
+					"min":0,
+					"max":10,
+					"step":0.01,
+					"randRange":"low"
+				},
+
+				"vigOffset":{
+					"displayName":"Vignette",
+					"value": 0.9,
+					"min":0,
+					"max":2,
+					"step":0.01,
+					"randRange":"low"
+				},
+
+				"saturation":{
+					"displayName":"Saturation",
+					"value": 0,
+					"min":-0.9,
+					"max":0.6,
+					"step":0.1
+				},
+
+				"contrast":{
+					"displayName":"Contrast",
+					"value": 0.2,
+					"min":0,
+					"max":1,
+					"step":0.01,
+					"randRange":"low"
+				},
+
+				"brightness":{
+					"displayName":"Brightness",
+					"value": 0,
+					"min":-1.5,
+					"max":0,
+					"step":0.01
+				}
+
+			}
+		},
+
+
+		"rgb":{
+			"displayName": "RGB Shift",
+			"on": true,
+			"params": {
+				"amount":{
+					"value": 0.005,
+					"min":0,
+					"max":0.01,
+					"step":0.001,
+					"displayName":"Amount"
+				}
+
+			}
+		},
+
+	
+
+		"barrelBlur":{
+			"displayName": "Barrel Blur",
+			"on": true,
+			"params": {
+				"amount":{
+					"displayName":"Amount",
+					"value": 0.05,
+					"min":0,
+					"max":0.3,
+					"step":0.01
+				}
+
+			}
+		},
+
+
+
+
+		"shake":{
+			"displayName": "Shake",
+			"on": true,
+			"params": {
+				"amount":{
+					"displayName":"Amount",
+					"value": 0.2,
+					"min":0,
+					"max":1,
+					"randRange":"low",
+					"custom": true
+				}
+			}
+		},
+
+
+		"wobble":{
+			"displayName": "Wobble",
+			"on": false,
+			"params": {
+				"strength":{
+					"displayName":"strength",
+					"value": 0.01,
+					"min":0,
+					"max":0.03,
+					"step":0.0001,
+					"randRange":"low"
+				},
+				"size":{
+					"displayName":"size",
+					"value": 10,
+					"min":1,
+					"max":10,
+					"step":1,
+					"randRange":"low"
+				}
+
+			}
+		},
+
+		"lines":{
+			"displayName": "Lines",
+			"on": true,
+			"params": {
+
+				"strength":{
+					"displayName":"strength",
+					"value": 0.1,
+					"min":0,
+					"max":1,
+					"step":0.01,
+					"randRange":"low"
+				}
+
+			}
+		}
+
+
+	}
+}
+
